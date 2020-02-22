@@ -1,13 +1,13 @@
 {
-  "name": "gatsby-starter-typescript-plus",
-  "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
+  "name": "@devpaul/static-site",
+  "description": "A static rendered site for devpaul.com",
   "version": "1.0.0",
   "private": true,
-  "author": "Resi Respati <resir014@gmail.com>",
+  "author": "Paul Shannon <paul@devpaul.com>",
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "UNLICENSED",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
@@ -21,7 +21,7 @@
     "type-check": "tsc"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12.0.0"
   },
   "dependencies": {
     "@emotion/core": "^10.0.10",
