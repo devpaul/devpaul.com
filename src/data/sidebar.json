@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Twitter",
+		"url": "https://twitter.com/developerpaul",
+		"icon": "twitter",
+		"hover": "#1da1f2"
+	},
+	{
+		"name": "Github",
+		"url": "https://github.com/devpaul",
+		"icon": "github",
+		"hover": "white"
+	},
+	{
+		"name": "LinkedIn",
+		"url": "https://www.linkedin.com/in/paulshannon/",
+		"icon": "linkedin",
+		"hover": "#0A97B2"
+	},
+	{
+		"name": "Talkscript",
+		"url": "http://talkscript.fm",
+		"icon": "talkscript",
+		"hover": "white"
+	},
+	{
+		"name": "Phoenix TypeScript",
+		"url": "https://www.meetup.com/Phoenix-TypeScript/",
+		"icon": "meetup",
+		"hover": "#F64060"
+	}
+]

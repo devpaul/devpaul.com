@@ -1,9 +1,8 @@
 import styled from '@emotion/styled';
 import * as React from 'react';
-import { FaGithub, FaLinkedin, FaMeetup, FaTwitter } from 'react-icons/fa';
 
 import logo from '../resources/gear.svg';
-import talkscriptLogo from '../resources/TalkScript.svg';
+import { Icon, IconName } from './Icon';
 
 const boxStyles = {
 	display: 'flex',
@@ -36,17 +35,19 @@ const LogoImage = styled.img({
 		transform: 'rotate(45deg)'
 	}
 });
-const [TwitterLogo, GithubLogo, LinkedInLogo, MeetupLogo] = [FaTwitter, FaGithub, FaLinkedin, FaMeetup].map((Logo, i) =>
-	styled(Logo)({
-		'font-size': '25px',
-		color: 'white',
-		':hover': {
-			color: ['#1da1f2', 'white', '#0A97B2', '#F64060'][i]
-		}
-	})
-);
 
-export const Nav: React.FC = () => (
+export interface NavProperties {
+	links: LinkDefinition[];
+}
+
+export interface LinkDefinition {
+	name: string;
+	url: string;
+	icon: IconName;
+	hover: string;
+}
+
+export const Nav: React.FC<NavProperties> = ({ links = [] }) => (
 	<StyledNav>
 		<StyledList>
 			<StyledListItem>
@@ -54,31 +55,13 @@ export const Nav: React.FC = () => (
 					<LogoImage src={logo} width="40" alt="home icon" />
 				</SiteIcon>
 			</StyledListItem>
-			<StyledListItem>
-				<a href="https://twitter.com/developerpaul" rel="noopener noreferrer" target="_blank">
-					<TwitterLogo />
-				</a>
-			</StyledListItem>
-			<StyledListItem>
-				<a href="https://github.com/devpaul" rel="noopener noreferrer" target="_blank">
-					<GithubLogo />
-				</a>
-			</StyledListItem>
-			<StyledListItem>
-				<a href="https://www.linkedin.com/in/paulshannon/" rel="noopener noreferrer" target="_blank">
-					<LinkedInLogo />
-				</a>
-			</StyledListItem>
-			<StyledListItem>
-				<a href="http://talkscript.fm" rel="noopener noreferrer" target="_blank">
-					<img src={talkscriptLogo} width="30" alt="talkscript.fm logo" />
-				</a>
-			</StyledListItem>
-			<StyledListItem>
-				<a href="https://www.meetup.com/Phoenix-TypeScript/" rel="noopener noreferrer" target="_blank">
-					<MeetupLogo />
-				</a>
-			</StyledListItem>
+			{links.map((link) => (
+				<StyledListItem>
+					<a href={link.url} rel="noopener noreferrer" target="_blank">
+						<Icon name={link.icon} />
+					</a>
+				</StyledListItem>
+			))}
 		</StyledList>
 	</StyledNav>
 );
