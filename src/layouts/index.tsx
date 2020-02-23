@@ -1,13 +1,12 @@
-import * as React from 'react';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
-
-import 'modern-normalize';
 import '../styles/normalize';
+import 'modern-normalize';
 
-import Header from '../components/Header';
-import LayoutRoot from '../components/LayoutRoot';
+import { graphql, StaticQuery } from 'gatsby';
+import * as React from 'react';
+
 import LayoutMain from '../components/LayoutMain';
+import LayoutRoot from '../components/LayoutRoot';
+import { Nav } from '../components/Nav';
 
 interface StaticQueryProps {
 	site: {
@@ -33,14 +32,7 @@ const IndexLayout: React.FC = ({ children }) => (
 		`}
 		render={(data: StaticQueryProps) => (
 			<LayoutRoot>
-				<Helmet
-					title={data.site.siteMetadata.title}
-					meta={[
-						{ name: 'description', content: data.site.siteMetadata.description },
-						{ name: 'keywords', content: data.site.siteMetadata.keywords }
-					]}
-				/>
-				<Header title={data.site.siteMetadata.title} />
+				<Nav />
 				<LayoutMain>{children}</LayoutMain>
 			</LayoutRoot>
 		)}

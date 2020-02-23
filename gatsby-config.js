@@ -48,6 +48,23 @@ module.exports = {
 				siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
 			}
 		},
+		{
+			resolve: `gatsby-plugin-manifest`,
+			options: {
+				name: 'dev/Paul',
+				short_name: 'devPaul',
+				description: 'landing site for all things dev/Paul',
+				start_url: '/',
+				background_color: '#242424',
+				theme_color: '#242424',
+				// Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+				// see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+				display: 'standalone',
+				icon: 'src/resources/favicon/icon.svg',
+				crossOrigin: `use-credentials`,
+				orientation: 'portrait'
+			}
+		},
 		'gatsby-plugin-emotion',
 		'gatsby-plugin-typescript',
 		'gatsby-plugin-sharp',
