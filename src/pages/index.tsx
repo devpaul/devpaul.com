@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import OverviewLayout from '../layouts/overview';
+import { AboutLayout } from '../layouts/about';
 
-const IndexPage = () => <OverviewLayout />;
+const IndexPage = () => <AboutLayout />;
 
 export default IndexPage;

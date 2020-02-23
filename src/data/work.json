@@ -1,1 +1,74 @@
-[]
+[
+	{
+		"name": "A-Frame typings",
+		"description": "TypeScript typings for A-Frame",
+		"link": "https://github.com/devpaul/aframe-typings",
+		"icon": "github",
+		"type": [
+			"vr",
+			"aframe",
+			"typescript"
+		],
+		"featured": true
+	},
+	{
+		"name": "Modern Clippy",
+		"description": "Modern implementations of Clippy for the web",
+		"link": "https://github.com/devpaul/modern-clippy",
+		"icon": "github",
+		"type": [
+			"webcomponents",
+			"typescript",
+			"demo"
+		],
+		"featured": true
+	},
+	{
+		"name": "A-Frame Experiments",
+		"description": "A bunch of quick experiments w/ TypeScript and A-Frame",
+		"link": "https://github.com/devpaul/aframe-experiments",
+		"type": "github",
+		"tags": [
+			"vr",
+			"aframe",
+			"typescript",
+			"demo"
+		]
+	},
+	{
+		"name": "Derpymon",
+		"description": "Catch derpy monsters in VR",
+		"link": "https://github.com/devpaul/derpymon",
+		"type": "github",
+		"tags": [
+			"vr",
+			"aframe",
+			"typescript",
+			"demo"
+		]
+	},
+	{
+		"name": "Cats vs Dogs",
+		"description": "Demo for a fun conference talk presented at HalfStack 2018 & Phoenix TypeScript",
+		"link": "https://github.com/devpaul/catsvsdogs",
+		"type": "github",
+		"tags": [
+			"dojo",
+			"typescript",
+			"demo",
+			"pwa",
+			"webaudio",
+			"web animation"
+		],
+		"featured": true
+	},
+	{
+		"name": "webserv",
+		"description": "A development web server written in TypeScript",
+		"link": "https://github.com/devpaul/webserv",
+		"type": "github",
+		"tags": [
+			"typescript"
+		]
+	}
+]

@@ -5,6 +5,9 @@ const StyledLayoutMain = styled.main`
 	display: flex;
 	flex-direction: column;
 	flex: 1;
+	height: 100vh;
+	max-width: 586px;
+	background: #ebebeb;
 `;
 
 interface LayoutMainProps {

@@ -6,37 +6,37 @@ import * as React from 'react';
 
 import LayoutMain from '../components/LayoutMain';
 import LayoutRoot from '../components/LayoutRoot';
-import { Nav } from '../components/Nav';
+import { Nav, LinkDefinition } from '../components/Nav';
 
 interface StaticQueryProps {
-	site: {
-		siteMetadata: {
-			title: string;
-			description: string;
-			keywords: string;
-		};
+	allSidebarJson: {
+		edges: {
+			node: LinkDefinition;
+		}[];
 	};
 }
 
-const IndexLayout: React.FC = ({ children }) => (
+export const IndexLayout: React.FC = ({ children }) => (
 	<StaticQuery
 		query={graphql`
-			query IndexLayoutQuery {
-				site {
-					siteMetadata {
-						title
-						description
+			query OverviewLayoutQuery {
+				allSidebarJson {
+					edges {
+						node {
+							name
+							url
+							icon
+							hover
+						}
 					}
 				}
 			}
 		`}
 		render={(data: StaticQueryProps) => (
 			<LayoutRoot>
-				<Nav />
+				<Nav links={data?.allSidebarJson?.edges.map((edge) => edge.node)} />
 				<LayoutMain>{children}</LayoutMain>
 			</LayoutRoot>
 		)}
 	/>
 );
-
-export default IndexLayout;
