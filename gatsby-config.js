@@ -7,8 +7,8 @@ module.exports = {
 		author: {
 			name: 'Paul Shannon',
 			about:
-				'I am a full-stack engineer with over fifteen years of experience. Currently at SitePen working primarily with JavaScript' +
-				' and TypeScript.',
+				'I am a full-stack engineer with over fifteen years of experience. Currently at Living Spec working primarily with ' +
+				'JavaScript and TypeScript.',
 			url: 'https://twitter.com/developerPaul'
 		}
 	},
