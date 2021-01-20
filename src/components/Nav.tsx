@@ -1,43 +1,11 @@
-import styled from '@emotion/styled';
-import * as React from 'react';
-
-import logo from '../resources/gear.svg';
-import { Icon, IconName } from './Icon';
-
-const boxStyles = {
-	display: 'flex',
-	'justify-content': 'center',
-	'align-items': 'center',
-	width: '70px',
-	height: '70px'
-};
-
-const StyledNav = styled.nav({
-	display: 'inline-block',
-	height: '100vh',
-	width: '70px',
-	'background-color': '#242424'
-});
-const StyledList = styled.ul({
-	margin: 0,
-	padding: 0
-});
-const StyledListItem = styled.li({
-	...boxStyles,
-	'list-style': 'none'
-});
-const SiteIcon = styled.div({
-	...boxStyles,
-	'background-color': '#0A97B2'
-});
-const LogoImage = styled.img({
-	':hover': {
-		transform: 'rotate(45deg)'
-	}
-});
-
-export interface NavProperties {
+import cn from 'classnames';
+import { FC } from 'react';
+import { Icon, IconName } from './icon';
+import css from './Nav.module.css';
+export interface NavProps {
 	links: LinkDefinition[];
+	color?: string;
+	expandable?: boolean;
 }
 
 export interface LinkDefinition {
@@ -47,21 +15,26 @@ export interface LinkDefinition {
 	hover: string;
 }
 
-export const Nav: React.FC<NavProperties> = ({ links = [] }) => (
-	<StyledNav>
-		<StyledList>
-			<StyledListItem>
-				<SiteIcon>
-					<LogoImage src={logo} width="40" alt="home icon" />
-				</SiteIcon>
-			</StyledListItem>
-			{links.map((link) => (
-				<StyledListItem>
-					<a href={link.url} rel="noopener noreferrer" target="_blank">
-						<Icon name={link.icon} />
-					</a>
-				</StyledListItem>
-			))}
-		</StyledList>
-	</StyledNav>
+export const Nav: FC<NavProps> = ({ links, color = 'white', expandable }) => {
+	return (
+		<nav className={css.root}>
+			<ul className={css.ul}>
+				{links.map((link) => (
+					<NavLink key={link.url} color={color} {...link} />
+				))}
+			</ul>
+		</nav>
+	);
+};
+
+export interface NavLinkProps extends LinkDefinition {
+	color: string;
+}
+
+const NavLink: FC<NavLinkProps> = ({ url, icon, name }) => (
+	<li className={cn(css.li)} data-icon={icon}>
+		<a href={url} rel="noopener noreferrer" target="_blank">
+			<Icon name={icon} label={name} size="25px" className={css.defaultIcon} />
+		</a>
+	</li>
 );

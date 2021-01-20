@@ -1,0 +1,370 @@
+[
+	{
+		"name": "The Pilot",
+		"description": "At SitePen, we've always thought it would be fun to do a podcast, we just didn't know what to talk about. Let us know if you're interested in hearing more!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-ep-1-the-pilot/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 1
+	},
+	{
+		"name": "Episode 2",
+		"description": "In this episode we talk about Nick's adventures in VIM, NEJSConf 2015 and we finally answer the question, \"How many templating systems does it take to beat a dead horse?\"",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-002/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 2
+	},
+	{
+		"name": "Episode 3",
+		"description": "You'll notice in this episode that I'm still working through audio issues so I apologize for the sound quality and will have this worked out before the next episode. However, Nick and Neil sound great!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-003/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 3
+	},
+	{
+		"name": "Episode 4",
+		"description": "Paul Shannon tells us all about Template Strings. Neil talks Virtual DOM. Nick give us the lowdown on Chrome extensions and Torrey finally fixed his microphone!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-004/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 4
+	},
+	{
+		"name": "Episode 5",
+		"description": "Nick tells us all about (I'm calling them big-boned not..) Fat Arrows, Mangala talks about being a Windows user and his problems with various package managers and Neil finds more bugs of the week!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-005/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 5
+	},
+	{
+		"name": "Episode 6",
+		"description": "Neil talks about Proxies in ES_INSERT_YEAR_HERE, Paul decides that package management shouldn't be this hard and Neil wants to store data using magic.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-006/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 6
+	},
+	{
+		"name": "Episode 7",
+		"description": "In this episode the gang talks about Torrey's broken finger, const and let, cutting through the FUD on CSS3 Variables, TypeScript support in IntelliJ and more!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-007/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 7
+	},
+	{
+		"name": "Episode 8",
+		"description": "The gang talks about Symbols in ES6, ES6/TS Workshops, dgrid 1.0 release and why you should (or shouldn't) attend meetups and conferences.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-008/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 8
+	},
+	{
+		"name": "Episode 9",
+		"description": "This week the gang talks about Trump Script, Trump Donald, Feeling the Bern, oh and actually quite a bit about, you know, JavaScript.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-009/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 9
+	},
+	{
+		"name": "Episode 10",
+		"description": "The gang talks about the Spread Operator, Ambient Declarations, JS Fatigue Fatigue and more.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-010/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 10
+	},
+	{
+		"name": "Episode 11",
+		"description": "The gang talks about Flux, our recently completed ES6/TS workshop, and why User Agent sniffing is hazardous to your health.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-011/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 11
+	},
+	{
+		"name": "Episode 12",
+		"description": "The Gang worries when Torrey upsets the Dear Leader! Will our heroes prevail?",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-012/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 12
+	},
+	{
+		"name": "Episode 13",
+		"description": "The gang talks to Nick who is live at EmberConf. LeftPad destroys the internet and more!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-013/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 13
+	},
+	{
+		"name": "Episode 14",
+		"description": "We talk about the latest updates to Framer, Sketch and the just announced Origami Studio by Facebook.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-014/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 14
+	},
+	{
+		"name": "Episode 15",
+		"description": "The gang talks about the importance of prototyping user interfaces, especially when lives literally depend on it. Nick demystifies Git and we play another round of Truthy/Falsy",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-015/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 15
+	},
+	{
+		"name": "Episode 16",
+		"description": "In this episode the gang talks all about modules, from what they are to how to use them in TypeScript!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-016/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 16
+	},
+	{
+		"name": "Episode 18",
+		"description": "This is virtually the best show we have ever done, we talk all about VR!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-018/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 18
+	},
+	{
+		"name": "Episode 19",
+		"description": "The gang invites Sean Larkin, core team member of Angular-CLI and Webpack, to the show to explain what Webpack is and where it's going.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-019/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 19
+	},
+	{
+		"name": "Episode 20",
+		"description": "We start off by talking about the new features in TypeScript 2.0 and then Neil describes his woes using TypeScript for rapid prototyping",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-020/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 20
+	},
+	{
+		"name": "Episode 21",
+		"description": "The Apple event happened and the team shares their thoughts on the future of the Mac.",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-episode-021/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 21
+	},
+	{
+		"name": "Episode 22",
+		"description": "The gang talks about AWS re:Invent, ReactVR, AFrame 0.4.0, DayDream, a special CES Truthy/Falsey and more!",
+		"link": "https://talkscript.sitepen.com/sitepen-podcast-season-2-episode-1/",
+		"publishDate": "",
+		"podcast": "SitePen podcast",
+		"episode": 22
+	},
+	{
+		"name": "TalkScript Episode 1",
+		"description": "The gang of the SitePen Podcast changes the name of the show to TalkScript, discusses the latest in VR/AR/WebVR, and Nick tries to make fetch() happen.",
+		"link": "https://talkscript.sitepen.com/talkscript-podcast-episode-1/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 1
+	},
+	{
+		"name": "TalkScript Episode 5",
+		"description": "The team discusses Web Audio and its application along with their issues with npm 5",
+		"link": "https://talkscript.sitepen.com/talkscript-podcast-episode-5/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 5
+	},
+	{
+		"name": "TypeScript 2.7, Stimulus.js and Stencil",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/talkscript-podcast-episode-6/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 6
+	},
+	{
+		"name": "Sarah’s ARIA of Expertise",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/talkscript-episode-8-sarahs-aria-of-expertise/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 8
+	},
+	{
+		"name": "Get Crackin’ With Flow",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/talkscript-episode-10-get-crackin-with-flow/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 10
+	},
+	{
+		"name": "Finding Your Spirit Interface",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-22-finding-your-spirit-interface/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 22
+	},
+	{
+		"name": "Web Audio: 99 Problems and a ScriptProcessorNode is One",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-23-web-audio-99-problems-and-a-scriptprocessornode-is-one/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 23
+	},
+	{
+		"name": "12 Months of TalkScript",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-26-12-months-of-talkscript/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 26
+	},
+	{
+		"name": "On the Roadmap Again",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-27-on-the-roadmap-again/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 27
+	},
+	{
+		"name": "Your Reasoning is Sound",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-28-your-reasoning-is-sound/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 28
+	},
+	{
+		"name": "(TC39|>Dreams)",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-29-tc39dreams/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 29
+	},
+	{
+		"name": "Idle Till Urgent",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-30-idle-till-urgent/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 30
+	},
+	{
+		"name": "What’s the Meta with Direct DOM Access?",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-31-whats-the-meta-with-direct-dom-access/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 31
+	},
+	{
+		"name": "Rails and Vue with Tito’s Paul Campbell",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-33-rails-and-vue-with-titos-paul-campbell/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 33
+	},
+	{
+		"name": "Fail Privately: Onboarding Made Easy with TypeScript",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/fail-privately-onboarding-made-easy-with-typescript/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 34
+	},
+	{
+		"name": "TypeScript Back Ends with Nest",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/typescript-back-ends-with-nest/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 35
+	},
+	{
+		"name": "Build Frameworks into the Browser? Preserving the Space to Iterate",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/build-frameworks-into-the-browser-preserving-the-space-to-iterate/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 36
+	},
+	{
+		"name": "Stencil: Using TypeScript to Build Web Components",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-37-stencil-using-typescript-to-build-web-components/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 37
+	},
+	{
+		"name": "WASM: Doing More Than Just Heating up your Computer",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-39-wasm-doing-more-than-just-heating-up-your-computer/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 39
+	},
+	{
+		"name": "Classical vs. Functional in TypeScript",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-50-classical-vs-functional-in-typescript/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 50
+	},
+	{
+		"name": "The Illusion That We Are Writing Javascript",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-51-the-illusion-that-we-are-writing-javascript-2/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 51
+	},
+	{
+		"name": "Holiday Special",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-52-holiday-special/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 52
+	},
+	{
+		"name": "Single Point of Failure",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/talkscript-53-single-point-of-failure/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 53
+	},
+	{
+		"name": "Tools We Love",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-54-tools-we-love/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 54
+	},
+	{
+		"name": "AST, Uses, and Tooling",
+		"description": "",
+		"link": "https://talkscript.sitepen.com/episode-55-asts-uses-and-tooling/",
+		"publishDate": "",
+		"podcast": "TalkScript",
+		"episode": 55
+	}
+]

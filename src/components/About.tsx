@@ -1,31 +1,22 @@
-import * as React from 'react';
-import styled from '@emotion/styled';
+import Image from 'next/image';
+import { FC } from 'react';
+import css from './About.module.css';
 
-import image from '../resources/Smile.png';
+export interface AboutProps {}
 
-export interface AboutProps {
-	name: string;
-	image: string;
-	description: string;
-}
-
-const StyledHeader = styled.header`
-	margin-top: 70px;
-	text-align: center;
-	font-size: 20pt;
-`;
-
-const StyledP = styled.p`
-	margin: 0 40px;
-	font-size: 16pt;
-`;
-
-export const About: React.FC<AboutProps> = ({ name, description }) => (
+export const About: FC<AboutProps> = () => (
 	<>
-		<StyledHeader>
-			<img src={image} alt={name} />
-			<h1>{name}</h1>
-		</StyledHeader>
-		<StyledP>{description}</StyledP>
+		<header className={css.header}>
+			<Image src="/Smile.png" alt="Paul Shannon picture" width="228" height="241" />
+			<h1>Paul Shannon</h1>
+		</header>
+		<p>
+			Hello! I am a full-stack engineer with over fifteen years of experience. I enjoy exploring the boundaries of
+			technology and am an avid fan of TypeScript, JavaScript, and all things immersive. As constant learner and
+			teacher, I have been a co-host of{' '}
+			<a href="https://www.meetup.com/Phoenix-TypeScript/">Phoenix TypeScript</a>, a panelist on the{' '}
+			<a href="http://talkscript.fm">TalkScript</a> podcast, and a speaker. I am based in Phoenix and have been
+			working remotely since 2014. Welcome.
+		</p>
 	</>
 );

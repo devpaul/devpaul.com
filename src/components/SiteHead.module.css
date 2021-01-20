@@ -1,0 +1,31 @@
+.root {
+	color: var(--nav-color);
+	background-color: var(--nav-background);
+	height: var(--nav-height);
+	min-width: var(--min-pane-width);
+}
+
+.logo {
+	display: inline-block;
+	width: var(--nav-width);
+}
+
+.list {
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 0;
+	padding: 0;
+	width: var(--pane-width);
+}
+
+.list li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 2em;
+	line-height: var(--nav-height);
+}
+
+.link {
+	font-size: 1.25em;
+}

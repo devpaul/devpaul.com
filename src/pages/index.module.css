@@ -1,0 +1,10 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100vh;
+	max-width: var(--max-pane-width);
+	min-width: var(--min-pane-width);
+	background: #ebebeb;
+	padding: 40px;
+}
