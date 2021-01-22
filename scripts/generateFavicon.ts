@@ -1,12 +1,12 @@
 import { join } from 'path';
 import sharp from 'sharp';
+import { dataDir, publicDir } from './config';
 
 export async function generate() {
 	const icoSizes = [16, 32];
 	const appleSizes = [48, 72, 96, 144, 192, 256, 384, 512];
 	const sizes = [32, ...appleSizes];
-	const publicDir = join(process.cwd(), 'public');
-	const favIconSvg = join(publicDir, 'favicon.svg');
+	const favIconSvg = join(dataDir, 'favicon', 'favicon.svg');
 
 	// TODO make favicon.ico
 
