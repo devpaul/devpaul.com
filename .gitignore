@@ -2,6 +2,7 @@
 .scratch
 public/icons/icon-*
 public/favicon.ico
+out
 
 # dependencies
 /node_modules

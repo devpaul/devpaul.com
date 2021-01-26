@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import { FC } from 'react';
 import { convertTextToSlug, getPosts } from '../../../scripts/posts';
-import RootLayout from '../../components/layout/RootLayout';
+import { RootLayout } from '../../components/layout/RootLayout';
 
 export interface PostProps {}
 

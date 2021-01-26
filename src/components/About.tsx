@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { FC } from 'react';
 import css from './About.module.css';
 
@@ -7,7 +6,7 @@ export interface AboutProps {}
 export const About: FC<AboutProps> = () => (
 	<>
 		<header className={css.header}>
-			<Image src="/Smile.png" alt="Paul Shannon picture" width="228" height="241" />
+			<img src="/Smile.png" alt="Paul Shannon picture" width="228" height="241" />
 			<h1 className={css.name}>Paul Shannon</h1>
 		</header>
 		<p>
