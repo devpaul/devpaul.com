@@ -8,6 +8,8 @@
 		"start": "next start"
 	},
 	"dependencies": {
+		"@types/classnames": "^2.2.11",
+		"classnames": "^2.2.6",
 		"gray-matter": "^4.0.2",
 		"next": "10.0.5",
 		"react": "17.0.1",

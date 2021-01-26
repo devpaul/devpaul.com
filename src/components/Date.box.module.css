@@ -1,0 +1,16 @@
+.root {
+	display: block;
+	margin: 0.5em;
+	padding: var(--grid-size);
+	border-right: 1px solid var(--secondary-text-color);
+}
+
+.day {
+	font-size: 1.5em;
+}
+
+.month,
+.year {
+	font-size: 0.75em;
+	color: var(--secondary-text-color);
+}

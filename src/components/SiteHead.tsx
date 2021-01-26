@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FC } from 'react';
+import { use } from '../env';
 import css from './SiteHead.module.css';
 
 export interface SiteHeadProps {}
@@ -10,7 +11,8 @@ export const SiteHead: FC<SiteHeadProps> = () => {
 			<Logo />
 			<ul className={css.list}>
 				<SiteLink label="About" link="/" />
-				<SiteLink label="Blog" link="/blog" />
+				<SiteLink label="Feed" link="/feed" />
+				{use('BLOG') && <SiteLink label="Blog" link="/blog" />}
 			</ul>
 		</div>
 	);

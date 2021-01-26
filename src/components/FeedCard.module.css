@@ -1,0 +1,96 @@
+.root {
+	background-color: var(--primary-bg);
+	margin: var(--grid-size);
+	max-width: var(--max-card-width);
+}
+
+.elevation1 {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.external {
+	display: flex;
+	height: 32px;
+	align-items: center;
+	margin-right: var(--grid-size);
+	color: var(--secondary-text-color);
+}
+
+.root a:hover .external {
+	color: var(--primary-text-color);
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+}
+
+.img {
+	width: 32px;
+	height: 32px;
+	border: 1px solid var(--secondary-text-color);
+	border-radius: 10px;
+	margin: var(--grid-size);
+}
+
+.imgContainer {
+	padding-top: var(--grid-size);
+	margin-left: var(--grid-size);
+}
+
+.picture {
+	max-width: 100%;
+}
+
+.title {
+	font-size: 1.25em;
+	margin: 0;
+}
+
+.subtitle {
+	color: var(--secondary-text-color);
+	font-size: 0.75em;
+	margin: 0;
+}
+
+.titleContainer {
+	flex: 1 1;
+	margin: 0 var(--grid-size);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	color: var(--secondary-text-color);
+}
+
+.root[data-type='talkscript'] .imgContainer {
+	color: #17547a;
+}
+
+.root[data-type='meetup'] .imgContainer {
+	color: #f64060;
+}
+
+.description {
+	margin: calc(2 * var(--grid-size));
+}
+
+.additionalLinks {
+	display: flex;
+	justify-content: flex-end;
+	margin: var(--grid-size);
+}
+
+.additionalLinks > a {
+	margin-left: var(--grid-size);
+}
+
+.additionalLinks > a:hover {
+	color: var(--active-link);
+	text-decoration: underline;
+}

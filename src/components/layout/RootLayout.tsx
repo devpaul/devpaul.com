@@ -1,21 +1,33 @@
+import cn from 'classnames';
+import Head from 'next/head';
 import { FC } from 'react';
-import sidebar from '../../data/sidebar.json';
-import { LinkDefinition, Nav } from '../Nav';
+import sidebar from '../../../data/sidebar.json';
 import { SiteHead } from '../SiteHead';
+import { LinkDefinition, SocialLinks } from '../SocialLinks';
+import { LinkBar } from './LinkBar';
 import css from './RootLayout.module.css';
+import { TopBar } from './TopBar';
 
-export interface RootLayoutProps {}
+export interface RootLayoutProps {
+	title?: string;
+	scrollable?: boolean;
+}
 
-const RootLayout: FC<RootLayoutProps> = ({ children }) => {
+export const RootLayout: FC<RootLayoutProps> = ({ title, scrollable, children }) => {
 	return (
 		<div className={css.root}>
-			<SiteHead />
-			<div className={css.contents}>
-				<Nav links={sidebar as LinkDefinition[]} />
-				{children}
+			<Head>
+				<title>dev/Paul{title ? ` - ${title}` : ''}</title>
+			</Head>
+			<TopBar>
+				<SiteHead />
+			</TopBar>
+			<div className={cn(css.contents, !scrollable && css.fixedContent)}>
+				<main className={css.main}>{children}</main>
 			</div>
+			<LinkBar>
+				<SocialLinks links={sidebar as LinkDefinition[]} />
+			</LinkBar>
 		</div>
 	);
 };
-
-export default RootLayout;

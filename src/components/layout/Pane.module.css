@@ -1,0 +1,15 @@
+.root {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	max-width: var(--max-pane-width);
+	min-width: var(--min-pane-width);
+	background: var(--primary-bg);
+	padding: 40px;
+}
+
+@media (max-width: 600px) {
+	.root {
+		padding: var(--grid-size);
+	}
+}

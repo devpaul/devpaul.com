@@ -1,5 +1,6 @@
 import { FC } from 'react';
-import { FaGithub, FaLinkedin, FaMeetup, FaTwitter } from 'react-icons/fa';
+import { BsFileRichtext } from 'react-icons/bs';
+import { FaExternalLinkAlt, FaGithub, FaLinkedin, FaMeetup, FaTwitter } from 'react-icons/fa';
 import TalkScriptIcon from './TalkScript';
 
 export interface IconProps {
@@ -14,7 +15,9 @@ const iconMap = {
 	github: FaGithub,
 	meetup: FaMeetup,
 	linkedin: FaLinkedin,
-	talkscript: TalkScriptIcon
+	talkscript: TalkScriptIcon,
+	external: FaExternalLinkAlt,
+	writing: BsFileRichtext
 };
 
 export type IconName = keyof typeof iconMap;

@@ -1,0 +1,240 @@
+[
+	{
+		"title": "TypeScript 3.9 and more",
+		"date": "2020-06-09",
+		"description": "A virtual meetup going over new features introduced in TypeScript 3.7, 3.8, and 3.9.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/270465717/",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "Dojo 6: TypeScript-first reactive framework",
+		"date": "2019-09-10",
+		"description": " a brief introduction to the Dojo Framework and a look at many of the new features and patterns. This talk will provide an intro/refresher to Dojo; functional widgets and middleware; build time rendering; custom elements & widget libraries",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/264522718/",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "TypeScript for Node.js",
+		"date": "2019-02-12",
+		"description": "The talk covers how to best setup TypeScript for working with Node.js, and a look at a variety of TypeScript packages for Node.js including, Nest, TypeORM, and more.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/258215747/",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "Intro to Custom Elements",
+		"date": "2019-01-08",
+		"description": "An introduction to Custom Elements and Web Components.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/257212578/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "slides",
+				"link": "https://github.com/devpaul/custom-elements-slides"
+			}
+		]
+	},
+	{
+		"title": "TS 3.1 and 3.2, and Web Audio and Web Animations with TS",
+		"date": "2018-11-13",
+		"description": "I cover some of the additions in TypeScript 3.1 and 3.2. The main presentation looks at using Web Animations and Web Audio within a TypeScript application.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/255940576/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "slides",
+				"link": "https://github.com/devpaul/catsvsdogs-slides"
+			},
+			{
+				"name": "demo",
+				"link": "https://catsvsdogs.now.sh/#catsvsdogs"
+			},
+			{
+				"name": "code",
+				"link": "https://github.com/devpaul/catsvsdogs"
+			}
+		]
+	},
+	{
+		"title": "TS 3.0 and Dojo version 3 updates",
+		"date": "2018-08-14",
+		"description": "A look at what's new in TypeScript 3.0 and provide a summary of the Dojo version 3 release.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/253419291/",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "Intro to Nest",
+		"date": "2018-05-08",
+		"description": "Nest is server-side framework featuring Dependency Injection, @decorators, and types. Written in TypeScript on top of Express it provides an opinioned pattern that removes a lot of boilerplate and gets straight to business (logic ;).",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/249685541/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "slides",
+				"link": "https://github.com/devpaul/nestjs-slides"
+			},
+			{
+				"name": "code",
+				"link": "https://github.com/devpaul/monorepo-todo"
+			}
+		]
+	},
+	{
+		"title": "TS 2.8 and TSConf recap",
+		"date": "2018-04-10",
+		"description": "A look at what's new in TypeScript 2.8 and provide a summary of the things we learned at the first ever TSConf!",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/248741873/",
+		"img": "",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "A closer look at TS 2.6 and 2.7",
+		"date": "2018-01-09",
+		"description": "A look at what's new in TypeScript 2.6 and what's planned for the 2.7 release.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/246074565/",
+		"img": "",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "Derpymon (TS, WebVR, AFrame, and Dojo 2 game)",
+		"date": "2017-11-14",
+		"description": "Derpymon is a WebVR app built using A-Frame and Dojo 2 and all of their related technologies. Come see the future as we provide an light introduction to A-Frame and Dojo 2, talk about best practices for navigating custom elements with reactive frameworks, and show how we built Derpymon into a custom element of its own using Webpack and Dojo 2 build tools.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/244028183/",
+		"img": "derpymon.png",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "site",
+				"link": "https://devpaul.github.io/derpymon/"
+			}
+		]
+	},
+	{
+		"title": "What's new in TS 2.3 and 2.4?",
+		"date": "2017-07-11",
+		"description": "Covering some of the new features available in TypeScript 2.3 and 2.4. He'll also answer questions over iterators, async/await, generators, and generics as we delve into what's new in TypeScript.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/241337278/",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "Getting Started with TypeScript",
+		"date": "2017-05-13",
+		"description": "A talk about TypeScript covering what you need to know and how TypeScript makes for a great developer experience.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/239757620/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "code",
+				"link": "https://github.com/devpaul/ts-basic-boilerplate"
+			},
+			{
+				"name": "slides",
+				"link": "https://github.com/devpaul/starting-ts-slides"
+			}
+		]
+	},
+	{
+		"title": "Continuous Delivery in Open Source",
+		"date": "2017-05-16",
+		"description": "Dojo is a JavaScript toolkit with over a decade of history supplying tooling to engineers and the enterprise. As part of a major rewrite to modernize the framework, we’ve updated the dojo.io site to be continuously deployed on a completely FOSS stack.\n\nCome join us for an inside look at how we’ve integrated GitHub, Travis CI, git, TypeDoc, Hexo, and Intern with a little bit of TypeScript to provide a better developer experience for the Dojo community.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/239572451/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "Phoenix DevOps",
+				"link": "https://www.meetup.com/Phoenix-DevOps-Meetup/events/239744486/"
+			},
+			{
+				"name": "slides",
+				"link": "https://github.com/devpaul/dojoio-slides"
+			}
+		]
+	},
+	{
+		"title": "Ambient Declarations",
+		"date": "2017-03-14",
+		"description": "A talk covering ambient declarations and their uses in TypeScript.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/237589032/",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "Features in TypeScript 2.0+",
+		"date": "2017-02-07",
+		"description": "An overview of all the new features in TypeScript 2.0, 2.1, and 2.2 and how to take advantage of these improvements to TypeScript!",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/236335712/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "slides",
+				"link": "https://training.sitepen.com/workshop/phxts_feb2017/materials/"
+			}
+		]
+	},
+	{
+		"title": "TypeScript development workflow",
+		"date": "2017-01-10",
+		"description": "Several approaches to setting up a good TypeScript development workflow.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/235291442/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "slides",
+				"link": "https://devpaul.github.io/typescript-workflow-slides/"
+			}
+		]
+	},
+	{
+		"title": "Exploring WebVR with TypeScript",
+		"date": "2016-10-11",
+		"description": "an overview of WebVR and its usage with TypeScript, including A-Frame and WebVR.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/232786245/",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "demo",
+				"link": "https://devpaul.github.io/aframe-experiments/"
+			},
+			{
+				"name": "slides",
+				"link": "https://github.com/devpaul/aframe-slides"
+			},
+			{
+				"name": "A-Frame typings",
+				"link": "https://github.com/devpaul/aframe-typings"
+			},
+			{
+				"name": "boilerplate",
+				"link": "https://github.com/devpaul/ts-dojo-aframe-boilerplate"
+			}
+		]
+	},
+	{
+		"title": "Dojo 2, TypeScript, and Electron",
+		"date": "2016-06-19",
+		"description": "Creating a desktop application using Dojo 2, TypeScript, and Electron.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/230784472/",
+		"tags": [],
+		"additionalLinks": []
+	},
+	{
+		"title": "Intro to TS and more",
+		"date": "2016-05-10",
+		"description": "Introduction to TypeScript. What it is. What it does for you. And how to start using it.",
+		"link": "https://www.meetup.com/Phoenix-TypeScript/events/230566780/",
+		"img": "introToTs_meetup.jpg",
+		"tags": [],
+		"additionalLinks": [
+			{
+				"name": "decorators example",
+				"link": "https://github.com/devpaul/TSDecorators-example"
+			}
+		]
+	}
+]

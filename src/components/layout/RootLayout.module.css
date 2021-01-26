@@ -4,5 +4,24 @@
 .contents {
 	display: flex;
 	flex-direction: row;
-	min-height: 100vh;
+	margin-top: var(--nav-height);
+}
+
+.main {
+	margin-left: var(--nav-width);
+}
+
+.fixedContent {
+	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+	.main {
+		margin-left: 0;
+	}
+
+	.contents {
+		overflow: auto;
+		margin-bottom: var(--nav-height);
+	}
 }

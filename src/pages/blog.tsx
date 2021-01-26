@@ -1,8 +1,9 @@
 import { GetStaticProps } from 'next';
 import { FC } from 'react';
 import { convertTextToSlug, getPosts, PostMetadata } from '../../scripts/posts';
-import RootLayout from '../components/layout/RootLayout';
+import { RootLayout } from '../components/layout/RootLayout';
 import { PostSummary } from '../components/PostSummary';
+import css from './blog.module.css';
 
 interface BlogProps {
 	posts: Post[];
@@ -15,9 +16,11 @@ interface Post extends PostMetadata {
 export const Blog: FC<BlogProps> = ({ posts }) => {
 	return (
 		<RootLayout>
-			{posts.map((post) => {
-				return <PostSummary {...post} />;
-			})}
+			<main className={css.root}>
+				{posts.map((post) => {
+					return <PostSummary {...post} />;
+				})}
+			</main>
 		</RootLayout>
 	);
 };

@@ -1,6 +1,7 @@
 .root {
 	display: inline-block;
-	height: 100vh;
+	margin-top: var(--nav-height);
+	height: var(--content-height);
 	width: 70px;
 	background-color: #242424;
 }
@@ -34,4 +35,17 @@
 
 .li[data-icon='meetup']:hover {
 	color: #f64060;
+}
+
+@media (max-width: 600px) {
+	.root {
+		width: 100%;
+		height: var(--nav-height);
+		margin-top: 0;
+	}
+	.ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 }

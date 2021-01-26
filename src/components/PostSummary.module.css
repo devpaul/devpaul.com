@@ -1,0 +1,15 @@
+.root {
+	background-color: var(--primary-bg);
+	margin: 10px;
+	max-width: var(--max-card-width);
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.title {
+	margin-right: var(--grid-size);
+}

@@ -1,0 +1,15 @@
+.root {
+	display: flex;
+}
+
+.day,
+.month,
+.year {
+	margin: 0 0.25em;
+	display: inline;
+	font-size: 0.75em;
+}
+
+.day::after {
+	content: ',';
+}

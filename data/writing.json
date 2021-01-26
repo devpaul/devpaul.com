@@ -1,0 +1,71 @@
+[
+	{
+		"title": "Building an Engineering Process",
+		"subtitle": "Part 1: Disciplined Engineering",
+		"date": "2020-05-21",
+		"description": "How engineering teams can establish a culture of engineering excellence from scratch.",
+		"link": "https://www.sitepen.com/blog/disciplined-engineering-part-1-building-an-engineering-process"
+	},
+	{
+		"title": "Creating Code Confidence",
+		"subtitle": "Part 2: Disciplined Engineering",
+		"date": "2020-05-21",
+		"description": "How to improve the confidence your team has in their code.",
+		"link": "https://www.sitepen.com/blog/disciplined-engineering-part-2-creating-code-confidence"
+	},
+	{
+		"title": "Refining Your Engineering Process",
+		"subtitle": "Part 3: Disciplined Engineering",
+		"date": "2020-05-21",
+		"description": "How to improve your engineering practices once you have the basics.",
+		"link": "https://www.sitepen.com/blog/disciplined-engineering-part-3-refining-your-engineering-process"
+	},
+	{
+		"title": "Virtual Reality in 2020",
+		"date": "2020-05-05",
+		"description": "A review of VR in 2020 and an insight on the future of the technology.",
+		"link": "https://www.sitepen.com/blog/virtual-reality-in-2020"
+	},
+	{
+		"title": "Progressively Adopting TypeScript in an Application",
+		"date": "2020-04-30",
+		"description": "How to progressively add type checking to an existing JavaScript codebase.",
+		"link": "https://www.sitepen.com/blog/progressively-adopting-typescript-in-an-application"
+	},
+	{
+		"title": "Cats vs Dogs: Answering the Important Questions",
+		"date": "2018-12-19",
+		"description": "A write-up about the Cats vs Dogs app created to decide the ultimate questions. This app was created for the HalfStack conference to showcase a PWA using Dojo's modern reactive architecture with web audio and animations.",
+		"link": "https://www.sitepen.com/blog/cats-vs-dogs-answering-the-important-questions"
+	},
+	{
+		"title": "A Quick Look at Nest",
+		"date": "2018-05-09",
+		"description": "Nest is a TypeScript-first, server-side framework that uses modern language features to reduce cruft and place the focus cleanly on route-handling business logic.",
+		"link": "https://www.sitepen.com/blog/a-quick-look-at-nest"
+	},
+	{
+		"title": "Intern Visual Regression Plugin",
+		"date": "2016-12-15",
+		"description": "How to use Intern's new visual regression testing plugin to browser test for visual changes.",
+		"link": "https://www.sitepen.com/blog/intern-visual-regression"
+	},
+	{
+		"title": "ES6 Symbols: Drumroll Please!",
+		"date": "2016-04-16",
+		"description": "An introduction to ES6 Symbols",
+		"link": "https://www.sitepen.com/blog/es6-symbols-drumroll-please",
+		"additionalLinks": [
+			{
+				"name": "JavaScript Weekly 279",
+				"link": "https://javascriptweekly.com/issues/279"
+			}
+		]
+	},
+	{
+		"title": "TypeScript Decorators",
+		"date": "2015-10-20",
+		"description": "An introduction to TypeScript decorators",
+		"link": "https://www.sitepen.com/blog/typescript-decorators"
+	}
+]
