@@ -1,0 +1,9 @@
+{
+  "name": "three",
+  "version": "1.0.0",
+  "description": "three samples",
+  "main": "index.js",
+  "author": "Paul Shannon",
+  "license": "MIT",
+  "private": true
+}

@@ -6,6 +6,8 @@ out
 
 # dependencies
 /node_modules
+/site/node_modules
+/samples/*/node_modules
 /.pnp
 .pnp.js
 
@@ -13,7 +15,7 @@ out
 /coverage
 
 # next.js
-/.next/
+.next
 /out/
 
 # production
